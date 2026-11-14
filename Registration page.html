@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta content="Making a registration page">
+        <title>
+            Registration Page
+        </title>
+    </head>
+    <body align="center">
+        <h1>
+            Registration Page
+        </h1>
+        <form action="Target.html" method="get/post">
+            Name : <input type="text" name="g1" placeholder="Enter your name"> <br> <br>
+            Email : <input type="email" name="g2" placeholder="Enter your gmail"> <br> <br>
+            Mobile : <input type="tel   " name="g3" placeholder="Enter your number" pattern="[0-9][10]" required> <br><br>
+            Course : <select align="center" name="g4" required>
+                <option value="1">Select</option>
+                <option>B.Tech</option>
+                <option>M.Tech</option>
+                <option>P.hD</option>
+            </select>
+            <br>
+            <br>
+            Gender : <input type="radio" name="g5" required> Male
+            <input type="radio" name="g5">Female <br><br>
+            Address : <textarea name="g6" required rows="3" cols="30" placeholder="Enter Your Address"></textarea>
+            <br>
+            <br>
+            Skills known : <input type="checkbox" name="g7"> Css
+        <input type="checkbox" name="g7"> JS
+        <input type="checkbox" name="g7"> Php
+        <input type="checkbox" name="g7"> Html
+        <br><br>
+        Inter Percentage : <input type="number" name="g8" min="0" max="100" required><br><br>
+        Upload File : <input style="color: brown;" type="file" name="g9" accept=".jpg,.jpeg,.png">
+        <br><br>
+        Password: <input type="password" name="g10" minlength="6" maxlength="14" required>
+        
+        <input type="checkbox" name="g11" required> I agree to the terms. <br><br>
+        <button type="submit"  > Register </button>
+        <button type="reset"> Clear All</button>
+        </form>
+
+    </body>
+</html>
