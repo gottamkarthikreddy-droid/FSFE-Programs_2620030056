@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title>
+            Accessibilty Styling Demo
+        </title>
+        <style>
+            body{
+                font-family: Arial;
+            }
+            button{
+                padding: 20px 30px;
+                background: darkgoldenrod;
+                color: black;
+                border:none
+            }
+            button:focus{
+                outline: 10px solid;
+        
+                outline-offset: 4px;
+            }
+            .box{
+                margin-top: 20px;
+                padding:15px;
+                background: #222;
+                color: #ffff;
+            }
+        </style>
+    </head>
+    <body>
+        <button> Press tab to Focus On Me</button>
+        <div class="box">
+            High Contrast Text for Better Readability.
+        </div>
+    </body>
+ </html>
